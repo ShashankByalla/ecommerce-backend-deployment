@@ -80,7 +80,13 @@ bash setup-vm.sh
 
 ## 5. API Endpoints
 
-
+| Endpoint         | Method | Description                |
+| ---------------- | ------ | -------------------------- |
+| `/products`       | GET    | Retrieve list of products   |
+| `/products/:id`   | GET    | Retrieve a specific product |
+| `/products`       | POST   | Add a new product           |
+| `/customers`      | GET    | Retrieve list of customers  |
+| `/customers/:id`  | GET    | Retrieve a specific customer|
 
 ## 6. NSG and Load Balancer Configuration
 
