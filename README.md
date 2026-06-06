@@ -1,5 +1,7 @@
 # ecommerce-backend-deployment
-
+![Docker Build](https://github.com/ShashankByalla/ecommerce-backend-deployment/actions/workflows/docker-build.yml/badge.svg)
+![Platform: Azure](https://img.shields.io/badge/Platform-Azure-blue)
+![Docker](https://img.shields.io/badge/Container-Docker-2496ED)
 # E-commerce Backend Deployment
 
 This project demonstrates the deployment of an e-commerce backend using Docker, with MySQL as the database. The frontend is served through Docker containers, and the backend interacts with a MySQL database. The project also includes performance monitoring, network security groups (NSGs) configuration, and Azure resource utilization tracking.
@@ -124,9 +126,5 @@ Logs for the performance of VM instances, containers, and database interactions 
 	3.	Commit your changes (git commit -am 'Add new feature').
 	4.	Push to the branch (git push origin feature/new-feature).
 	5.	Create a new Pull Request.
-
-# License
-
-This project is licensed under the MIT License.
 
 This README.md provides a clear overview of your project, and it incorporates the NSG configuration screenshots and performance logs. You can modify this further to meet your specific needs.
