@@ -52,7 +52,7 @@ ecommerce-backend-deployment/
 
 ## 1. Clone the Repository
 
-git clone https://github.com/your-username/ecommerce-backend-deployment.git
+git clone https://github.com/ShashankByalla/ecommerce-backend-deployment.git
 cd ecommerce-backend-deployment
 
 ## 2. Build and Run Docker Containers
