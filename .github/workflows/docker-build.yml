@@ -9,15 +9,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
       
       - name: Build Backend Docker Image
         run: |
           cd backend
           docker-compose build
           
-      - name: Build Frontend Docker Image  
+      - name: Build Frontend Docker Image
         run: |
           cd frontend
           docker-compose build
+
+      - name: Verify containers
+        run: docker images
